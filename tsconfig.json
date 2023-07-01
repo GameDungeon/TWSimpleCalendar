@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+      "types": ["node", "tw5-typed"]
+    },
+    "include": ["src"],
+    "exclude": ["./**/*.js"]
+}

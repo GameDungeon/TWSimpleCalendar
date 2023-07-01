@@ -1,0 +1,12 @@
+{
+  "title": "$:/plugins/$Author/$Plugin",
+  "name": "$Plugin",
+  "author": "$Author",
+  "description": "",
+  "plugin-type": "plugin",
+  "version": "0.1.0",
+  "list": [
+    "readme",
+    "credits"
+  ]
+}

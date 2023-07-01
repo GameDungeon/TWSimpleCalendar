@@ -1,0 +1,28 @@
+{
+  "url": "",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "reset": "rimraf ./**/node_modules",
+    "clean": "rimraf dist",
+    "new": "tiddlywiki-plugin-dev new",
+    "dev": "tiddlywiki-plugin-dev dev",
+    "build": "yarn run clean && tiddlywiki-plugin-dev build",
+    "build:library": "yarn run clean && tiddlywiki-plugin-dev build --library --output dist/library",
+    "publish": "yarn run clean && tiddlywiki-plugin-dev publish"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "tw5-typed": "^0.2.27",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.2.5",
+    "tiddlywiki-plugin-dev": "^0.0.36"
+  }
+}
