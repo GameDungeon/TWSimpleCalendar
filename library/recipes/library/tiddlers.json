@@ -1,0 +1,16 @@
+[
+    {
+        "title": "$:/plugins/$Author/$Plugin",
+        "name": "$Plugin",
+        "author": "$Author",
+        "description": "",
+        "plugin-type": "plugin",
+        "version": "0.1.0",
+        "list": "readme credits",
+        "dependents": "",
+        "type": "application/json",
+        "Modern.TiddlyDev#SHA256-Hashed": "affb8731add881ac2675b58721f13c2e50e5626e6a1bfc911f1adfb0e0ee9f25",
+        "readme": "! $Plugin",
+        "requires-reload": "yes"
+    }
+]
